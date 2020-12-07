@@ -53,5 +53,11 @@ namespace WebApp.Controllers
 		{
 			return Ok("123456");
 		}
+
+		[HttpGet]
+		public ActionResult GetData5()
+		{
+			return Ok("123456");
+		}
 	}
 }
