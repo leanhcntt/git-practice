@@ -35,5 +35,11 @@ namespace WebApp.Controllers
 			})
 			.ToArray();
 		}
+		
+		[HttpGet]
+		public ActionResult GetData()
+		{
+			return Ok("123456");
+		}
 	}
 }
